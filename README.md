@@ -78,3 +78,22 @@ sudo systemctl enable mysql
 ```
 sudo systemctl disable mysql
 ```
+
+# NetworkManager
+
+- Reiniciar el servicio de red
+```
+sudo systemctl restart NetworkManager
+```
+
+- Cambiar a servidor DNS  público
+```
+sudo nano /etc/resolv.conf
+```
+- Modificar el nameserver
+```
+nameserver 8.8.8.8
+```
+
+
+
